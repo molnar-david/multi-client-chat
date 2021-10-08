@@ -3,8 +3,6 @@
 #include <sstream>
 #include <string>
 
-#define MAX_BUFFER_SIZE 4096
-
 MultiClientChat::MultiClientChat(const char* ipAddress, int port)
 	: TcpListener(ipAddress, port)
 {
